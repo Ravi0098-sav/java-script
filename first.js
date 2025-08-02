@@ -1,1 +1,7 @@
-console.log("Hello, World!");
+function createHelloWorld(){
+    return function() {
+        return "Hello World";
+    }
+}
+const helloWorld = createHelloWorld();as
+console.log(helloWorld()); // Output: Hello World
