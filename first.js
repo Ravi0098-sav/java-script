@@ -3,5 +3,5 @@ function createHelloWorld(){
         return "Hello World";
     }
 }
-const helloWorld = createHelloWorld();as
+const helloWorld = createHelloWorld();
 console.log(helloWorld()); // Output: Hello World
