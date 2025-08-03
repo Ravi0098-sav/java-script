@@ -4,4 +4,3 @@ const product = {
     Discount: 0.1,
     price :275,
 };
-
