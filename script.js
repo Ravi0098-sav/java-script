@@ -124,7 +124,7 @@ let student2 = ["Vishal", "Kumar", "Sharma"];
 // }
 // let result = sum(4,5);
 // console.log(result);
-
+/*
 function countVowel (str){
     count = 0;
     for(char of str){
@@ -135,4 +135,82 @@ function countVowel (str){
     console.log(count);
 
 }
-countVowel("hello world");
+countVowel("hello my name is ravi");
+*/
+
+// arrow.each function
+
+// let arr = [1, 2, 3, 4, 5];
+// arr.forEach(function myfun(val){
+//     console.log(val);
+// })
+
+// let cities = ["Delhi", "Mumbai", "Bangalore", "Chennai"];
+// cities.forEach((city) => {
+//     console.log(city.toUpperCase());
+// });
+
+
+// Square of each number in an array using forEach
+/*let n = [1,2,3,4,5];
+
+n.forEach((num) => {
+    console.log(num * num);
+});*/
+
+
+// map function it's used to create a new array by applying a function to each element of the original array
+/*let numbers = [1, 2, 3, 4, 5];
+  const arr = numbers.map((num) =>{
+    return num * num;
+ })
+ console.log(arr); // Output: [1, 4, 9, 16, 25]*/
+
+ // Filter function it's used to filter out elements from an array based on a condition
+// let ages = [15, 20, 25, 30, 35, 40];
+// const arr = ages.filter((age)=>{
+    
+//     if(age> 18){
+//         console.log(age);
+//     }
+// })
+// console.log(arr); // Output: [20, 25, 30, 35, 40]
+
+// // Reduce function it's used to reduce an array to a single value
+// let numbers = [1, 2, 3, 4,132,5];
+
+// const total =numbers.reduce((current, next)=>{
+//     // for finding largest number
+//     return current > next ? current : next;
+//     return current + next;
+// })
+// console.log(total); // Output: 15
+
+
+// practice question
+/*let marks = [10, 20, 30, 40, 50,100, 60, 70, 80, 90];
+marks.filter((mark)=>{
+    if(mark > 50){
+        console.log(mark);
+    }
+})
+*/
+
+
+// practice question
+/*let n = prompt("Enter a number");
+let arr = [];
+for( let i =1; i<=n; i++){
+    arr[i-1] = i;
+}
+console.log(arr);
+ let sum = arr.reduce((current, next) => {
+    return current + next;
+})
+console.log(`Sum of first ${n} natural numbers is: ${sum}`);
+
+ let factorial = arr.reduce((current, next) => {
+    return current * next;
+})
+console.log(`Factorial of ${n} is: ${factorial}`);*/
+
